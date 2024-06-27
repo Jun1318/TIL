@@ -1,0 +1,30 @@
+a = " hobby "
+print(a.count('b'))
+print("b가 처음으로 나온 위치는 %d" %2)
+print(a.find('b'))
+print("%s" % a.upper())
+print("%s" % a.lower())
+
+print("%s" % a.strip())
+print("%s" % a.replace("hobb", "happ"))
+
+a = ['d','b','c']
+a.append('e')
+print(a)
+a.sort()
+print(a)
+a.reverse()
+print(a)
+print("%d" %a.index('b'))
+a.remove('d')
+print(a)
+print("%c" %a.pop())
+print(a)
+a.extend(['a','v'])
+print("%d" %a.count('a'))
+print(a)
+z = (1,2,3)
+print(z)
+a = (4,5)
+z = z+a
+print(z)
